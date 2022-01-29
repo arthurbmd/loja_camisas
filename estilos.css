@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+/* Estilo geral */
+
+
+
+a {
+    text-decoration: none;
+    color: #FFFF00;
+}
+a:visited{
+    color: #EEEE00;
+    text-decoration: none;
+}
+
+body{
+    background-color: #551177;
+    color: #FFFF00;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Sessões */
+
+header {
+    display:block;
+    padding:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+nav {
+    display:block;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding: 4px;
+    padding-bottom: 4px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+}
+
+section {
+    display:block;
+}
+
+footer {
+    text-decoration: italic;
+    clear:both;
+}
+
+/* Estilo Header */
+.ender{
+    text-align:center;
+    font: size 14px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+img .imgLogo{
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+}
+
+/* Estilo Nav */
+
+nav .menu {
+    align-items: center;
+    margin: 1px auto;
+}
+
+nav .botao{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 120px;
+    display: inline-block;
+}
+/* Estilo seção apresentação */
+
+.apres {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Estilo Página Tempo de Mascaras */
+
+.ilusMasc{
+    text-align: center;
+    margin: auto;
+
+}
+
+.imgMasc {
+    border-style: solid;
+    border-width: 4px;
+    border-color: orange;
+    margin: auto;
+    display: block;
+}
+
+.lisDescricao{ 
+    color:#FFFF00;
+    font-size: 18px;
+    list-style: square;
+}
+
+
+.lisCarac{
+    font-size: 16px;
+    list-style-image: url("Imagens/Seta18.png");
+}
+
+.lisCarac li{
+    padding: 10px;
+    border-top: 10px;
+}
+
+/* Novo estilo Página Mascaras */
+
+.janInfo {
+    text-align: center;
+}
+
+.imgCorMasc {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border: 2px solid orange;
+}
+
+.btnFechar {
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+}
+
+/* Página Camisa */
+
+#tableMargin {
+    margin-bottom: 40px;
+}
+.tabInfo{
+    border-style: solid;
+    border-collapse: collapse;
+    background-color:#FFFFCC;
+    color: #2255AA;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tabInfo td, th{
+    border: 3px;
+    border-style: solid;
+    border-color: #77CCDD;
+    padding: 6px 6px 4px 6px;
+}
+
+
+.tabInfo .linTH {
+    color: #FFFFFF;
+    background-color: #0099DD;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabInfo .colTH {
+    color: #005599;
+    background-color: #FFFFFF;
+    width: 104px;
+    text-align: center;
+}
+
+.tabInfo img {
+    width: 250px;
+    height: 312px;
+}
+
+.tabInterna {
+    width: 100%;
+    margin: 0;
+}
+
+.tabInterna th {
+    width: 50%;
+}
+
+
+.tabInterna img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Novos estilos Camisa */
+
+.tabInfo .colMenu {
+    text-align: center;
+    width: 120px;
+}
+
+.colMenu a:link{
+    color: #005599;
+}
+
+.colMenu a:visited{
+    color: #005599;
+}
+
+.tabInfo .imgCel {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+/* Estilo Formulário */
+
+.divCompras {
+    width: 575px;
+    color: #2255AA;
+    background-color: #EEEEAA;
+    padding: 6px 6px 15px 6px;
+    margin: 20px auto;
+    border: 2px;
+    border-style: solid;
+    border-color:#77CCDD;
+}
+
+/* Dentro do fomulário */
+
+.divCompras .listaCompras{
+    width: 230px;
+    height: 230px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+
+.divCompras .colLabSelProd {
+    width:260px;
+    height:40px;
+    float:left;
+}
+
+.divCompras .colSelProd {
+    width: 160px;
+    float: right;
+}
+
+.divCompras .linhaProdSel {
+    width: 250px;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+
+.divCompras #elemEsq{
+    float: left;
+    display: block;
+}
+
+.divCompras #elemDir{
+    float: right;
+    display: block;
+}
+
+
+/* inputs */
+
+.impMedio {
+    width: 80px;
+}
+
+.marginTot{
+    margin-top: 40px;
+}
+
+.inpGrande {
+    width: 400px;
+}
+
+.impNCC {
+    width: 130px;
+}
+
+.impTelef {
+    width: 90px;
+}
+
+.impEnder{
+    width: 200px;
+    height: 60px;
+}
+
+.numDD {
+    width: 30px;
+}
+
+.numQD {
+    width: 50px;
+}
+
+/* fieldsets */
+
+.fsEsq{
+    float: left;
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+.fsDir{
+    float: right;
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.divLinha{
+    margin-bottom: 6px;
+}
+
+.colPri{
+    float: left; 
+    display: block;
+    width: 90px;
+}
+
+.colPriCompras{
+    float: left;
+    display: block;
+    width: 86px;
+}
+
+.colPriPag {
+    float: left;
+    display: block;
+    width: 250px;
+}
+
+.comprasFeitas{
+    width: 230px;
+    height: 180px;
+    float:right;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#marginCC{
+    margin-top: 20px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisa</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img class="imgLogo" src="Imagens/LogoCOM_Topo.png" alt="LogoCOM">
+    </header>
+    <nav class=menu>
+            <a class="botao" href="COM.html" target="_blank">inicial</a>
+            <a class="botao" href="Mascaras.html" target="_blank">mascaras</a>
+            <a class="botao" href="Camisas.html" target="_blank">camisas</a>
+            <a class="botao" href="Compras.html" target="_blank">compras</a>
+    </nav>
+    <section>
+        <h1>Configurações de Camisas</h1>
+        <table class="tabInfo" id="tableMargin">
+            <tr> 
+                <th colspan="4" class="linTH"> Configurações de Camisas</th>
+            </tr>
+
+            <tr>
+                <th class="colTH" rowspan="10">Desenhos</th>
+                
+                <td class="colMenu"><a href="javascript:visualizarCamisa(0)">Lisa</a></td>
+
+                <td rowspan="11" colspan="2" class="imgCel" id="exemploCamisa"><img src="Imagens/vazio.png" alt="Camisa" id="imagem"></td>
+                
+                
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(1)">Mercúrio</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(2)">Vênus</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(3)">Terra</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(4)">Marte</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(5)">Júpiter</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(6)">Saturno</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(7)">Urano</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(8)">Netuno</a></td>
+                </tr>
+                <tr class="colMenu">
+                    <td><a href="javascript:visualizarCamisa(9)">Plutão</a></td>
+                </tr>
+            </tr>
+
+            <tr>
+                <th class="linTH" colspan="4"></th>
+            </tr>
+            <tr>
+                <th class="colTH">Modelos de Manga</th>
+                <th>T-Shirts</th>
+                <th>Baby Look</th>
+                <th>Sem Manga</th>
+            </tr>
+
+            <tr>
+                <th class="linTH" colspan="4"></th>
+            </tr>
+
+            <tr>
+                <th class="colTH">Tamanhos</th>
+                <td>
+                    <table class="tabInterna">
+                        <tr>
+                            <th>P</th>
+                            <th>M</th>
+                        </tr>
+                        <tr>
+                            <th>G</th>
+                            <th>GG</th>
+                        </tr>
+                    </table>
+                </td>
+                <th class="colTH">
+                    Cores
+                </th>
+                <td>
+                    <table class="tabInterna">
+                        <tr>
+                            <th><img src="Imagens/Azul.png" alt="Azul"></th>
+                            <th><img src="Imagens/Lilas.png" alt="Lilas"></th>
+                        </tr>
+                        <tr>
+                            <th><img src="Imagens/Preto.png" alt="Preto"></th>
+                            <th><img src="Imagens/Branco.png" alt="Branco"></th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer class="ender">
+        <em>Via Lactea, 1234 / Tel: (21) 98765-4321 / contato@camplanetas.com.br</em>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
